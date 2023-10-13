@@ -1,4 +1,4 @@
- #include <bits/stdc++.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -7,14 +7,29 @@ string rtrim(const string &);
 
 int main()
 {
-    string n_temp;
-    getline(cin, n_temp);
+    string N_temp;
+    getline(cin, N_temp);
 
-    int n = stoi(ltrim(rtrim(n_temp)));
+    int N = stoi(ltrim(rtrim(N_temp)));
 
-    for (int i = 1; i <= 10; i++)
+    if (N % 2 == 1)
     {
-        cout << n << " x " << i << " = " << n * i << endl;
+        cout << "Weird" << endl;
+    }
+    else
+    {
+        if (N >= 2 && N <= 5)
+        {
+            cout << "Not Weird" << endl;
+        }
+        else if (N >= 6 && N <= 20)
+        {
+            cout << "Weird" << endl;
+        }
+        else if (N > 20)
+        {
+            cout << "Not Weird" << endl;
+        }
     }
 
     return 0;
