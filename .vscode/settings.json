@@ -33,7 +33,8 @@
     "span": "cpp",
     "stacktrace": "cpp",
     "regex": "cpp",
-    "valarray": "cpp"
+    "valarray": "cpp",
+    "stdio.h": "c"
   },
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
