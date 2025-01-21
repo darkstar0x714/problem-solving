@@ -11,7 +11,7 @@
       "AKA": "darkstar0x714",
       "Create Time": {
         "type": "createTime",
-        "format": "yyyy-MM-dd HH:mm:ss"
+        "format": "YYYY-MM-DD HH:mm:ss"
       },
       "link": " "
       // "Description": " "
